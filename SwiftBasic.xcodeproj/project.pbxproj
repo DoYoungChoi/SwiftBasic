@@ -15,6 +15,7 @@
 		D8F2B07B2AD50A2500BC2F52 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B07A2AD50A2500BC2F52 /* Collections.swift */; };
 		D8F2B07D2AD50FEF00BC2F52 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B07C2AD50FEF00BC2F52 /* Condition.swift */; };
 		D8F2B07F2AD513D100BC2F52 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B07E2AD513D100BC2F52 /* Loop.swift */; };
+		D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0822AD5181E00BC2F52 /* Function.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D8F2B07A2AD50A2500BC2F52 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 		D8F2B07C2AD50FEF00BC2F52 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 		D8F2B07E2AD513D100BC2F52 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		D8F2B0822AD5181E00BC2F52 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				D8F2B07A2AD50A2500BC2F52 /* Collections.swift */,
 				D8F2B07C2AD50FEF00BC2F52 /* Condition.swift */,
 				D8F2B07E2AD513D100BC2F52 /* Loop.swift */,
+				D8F2B0822AD5181E00BC2F52 /* Function.swift */,
 			);
 			name = "Ch2.문법의첫걸음";
 			path = "Ch2.문법의첫걸음";
@@ -162,6 +165,7 @@
 			files = (
 				D8F2B0792AD504D500BC2F52 /* VariableType.swift in Sources */,
 				D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */,
+				D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */,
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
 				D8F2B07F2AD513D100BC2F52 /* Loop.swift in Sources */,
 				D8F2B07B2AD50A2500BC2F52 /* Collections.swift in Sources */,
