@@ -23,6 +23,7 @@
 		D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0902AD538B000BC2F52 /* Nil.swift */; };
 		D8F2B0942AD55D4900BC2F52 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0932AD55D4900BC2F52 /* Exception.swift */; };
 		D8F2B0962AD5623B00BC2F52 /* MyCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0952AD5623B00BC2F52 /* MyCar.swift */; };
+		D8F2B0982AD5670100BC2F52 /* MyGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0972AD5670100BC2F52 /* MyGeneric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		D8F2B0902AD538B000BC2F52 /* Nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nil.swift; sourceTree = "<group>"; };
 		D8F2B0932AD55D4900BC2F52 /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
 		D8F2B0952AD5623B00BC2F52 /* MyCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCar.swift; sourceTree = "<group>"; };
+		D8F2B0972AD5670100BC2F52 /* MyGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeneric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				D8F2B0932AD55D4900BC2F52 /* Exception.swift */,
 				D8F2B0952AD5623B00BC2F52 /* MyCar.swift */,
+				D8F2B0972AD5670100BC2F52 /* MyGeneric.swift */,
 			);
 			name = "Ch4.문법활용해서코딩하기";
 			path = "Ch4.문법활용해서코딩하기";
@@ -207,6 +210,7 @@
 				D8F2B0962AD5623B00BC2F52 /* MyCar.swift in Sources */,
 				D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */,
 				D8F2B08F2AD5327C00BC2F52 /* Switch.swift in Sources */,
+				D8F2B0982AD5670100BC2F52 /* MyGeneric.swift in Sources */,
 				D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */,
 				D8F2B0882AD5208E00BC2F52 /* Elevator.swift in Sources */,
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
