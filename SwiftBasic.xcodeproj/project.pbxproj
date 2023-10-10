@@ -79,9 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				D8F2B0682AD4FF7100BC2F52 /* SwiftBasicApp.swift */,
-				D8F2B0772AD504B400BC2F52 /* Ch2.문법의첫걸음 */,
-				D8F2B0892AD5209500BC2F52 /* Ch3.코드로구조잡기 */,
-				D8F2B0922AD55CF100BC2F52 /* Ch4.문법활용해서코딩하기 */,
+				D8F2B09A2AD56B5100BC2F52 /* Part1.개발에필요한기초문법 */,
 				D8F2B06C2AD4FF7200BC2F52 /* Assets.xcassets */,
 				D8F2B06E2AD4FF7200BC2F52 /* SwiftBasic.entitlements */,
 				D8F2B06F2AD4FF7200BC2F52 /* Preview Content */,
@@ -133,6 +131,17 @@
 			);
 			name = "Ch4.문법활용해서코딩하기";
 			path = "Ch4.문법활용해서코딩하기";
+			sourceTree = "<group>";
+		};
+		D8F2B09A2AD56B5100BC2F52 /* Part1.개발에필요한기초문법 */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2B0772AD504B400BC2F52 /* Ch2.문법의첫걸음 */,
+				D8F2B0892AD5209500BC2F52 /* Ch3.코드로구조잡기 */,
+				D8F2B0922AD55CF100BC2F52 /* Ch4.문법활용해서코딩하기 */,
+			);
+			name = "Part1.개발에필요한기초문법";
+			path = "Part1.개발에필요한기초문법";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
