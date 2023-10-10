@@ -11,6 +11,7 @@
 		D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B06A2AD4FF7100BC2F52 /* ContentView.swift */; };
 		D8F2B06D2AD4FF7200BC2F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F2B06C2AD4FF7200BC2F52 /* Assets.xcassets */; };
 		D8F2B0712AD4FF7200BC2F52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F2B0702AD4FF7200BC2F52 /* Preview Assets.xcassets */; };
+		D8F2B0792AD504D500BC2F52 /* VariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0782AD504D500BC2F52 /* VariableType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D8F2B06C2AD4FF7200BC2F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F2B06E2AD4FF7200BC2F52 /* SwiftBasic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftBasic.entitlements; sourceTree = "<group>"; };
 		D8F2B0702AD4FF7200BC2F52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8F2B0782AD504D500BC2F52 /* VariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D8F2B0682AD4FF7100BC2F52 /* SwiftBasicApp.swift */,
-				D8F2B06A2AD4FF7100BC2F52 /* ContentView.swift */,
+				D8F2B0772AD504B400BC2F52 /* Ch2.문법의첫걸음 */,
 				D8F2B06C2AD4FF7200BC2F52 /* Assets.xcassets */,
 				D8F2B06E2AD4FF7200BC2F52 /* SwiftBasic.entitlements */,
 				D8F2B06F2AD4FF7200BC2F52 /* Preview Content */,
@@ -67,6 +69,16 @@
 				D8F2B0702AD4FF7200BC2F52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8F2B0772AD504B400BC2F52 /* Ch2.문법의첫걸음 */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2B06A2AD4FF7100BC2F52 /* ContentView.swift */,
+				D8F2B0782AD504D500BC2F52 /* VariableType.swift */,
+			);
+			name = "Ch2.문법의첫걸음";
+			path = "Ch2.문법의첫걸음";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F2B0792AD504D500BC2F52 /* VariableType.swift in Sources */,
 				D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */,
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
 			);
