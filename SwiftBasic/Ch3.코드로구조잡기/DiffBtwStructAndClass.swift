@@ -11,7 +11,7 @@ struct DiffBtwStructAndClass: View {
     
     let myCar = Car(name: "도돌카", owner: "도돌")
     @State private var greetingCarOwner: String = ""
-    let myKar = Kar(name: "라떼카", owner: "라떼")
+    @ObservedObject var myKar = Kar(name: "라떼카", owner: "라떼")
     @State private var greetingKarOwner: String = ""
     
     var body: some View {
@@ -54,8 +54,8 @@ struct Car {
     }
 }
 
-class Kar {
-    var name: String
+class Kar: ObservableObject {
+    @Published var name: String
     var owner: String
     
     init(name: String, owner: String) {
