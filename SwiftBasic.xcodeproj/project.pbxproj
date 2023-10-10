@@ -22,6 +22,7 @@
 		D8F2B08F2AD5327C00BC2F52 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08E2AD5327C00BC2F52 /* Switch.swift */; };
 		D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0902AD538B000BC2F52 /* Nil.swift */; };
 		D8F2B0942AD55D4900BC2F52 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0932AD55D4900BC2F52 /* Exception.swift */; };
+		D8F2B0962AD5623B00BC2F52 /* MyCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0952AD5623B00BC2F52 /* MyCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D8F2B08E2AD5327C00BC2F52 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		D8F2B0902AD538B000BC2F52 /* Nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nil.swift; sourceTree = "<group>"; };
 		D8F2B0932AD55D4900BC2F52 /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		D8F2B0952AD5623B00BC2F52 /* MyCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D8F2B0932AD55D4900BC2F52 /* Exception.swift */,
+				D8F2B0952AD5623B00BC2F52 /* MyCar.swift */,
 			);
 			name = "Ch4.문법활용해서코딩하기";
 			path = "Ch4.문법활용해서코딩하기";
@@ -201,6 +204,7 @@
 			files = (
 				D8F2B0792AD504D500BC2F52 /* VariableType.swift in Sources */,
 				D8F2B08D2AD52D9300BC2F52 /* Enumeration.swift in Sources */,
+				D8F2B0962AD5623B00BC2F52 /* MyCar.swift in Sources */,
 				D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */,
 				D8F2B08F2AD5327C00BC2F52 /* Switch.swift in Sources */,
 				D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */,
