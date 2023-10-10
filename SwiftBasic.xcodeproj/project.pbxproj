@@ -21,6 +21,7 @@
 		D8F2B08D2AD52D9300BC2F52 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */; };
 		D8F2B08F2AD5327C00BC2F52 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08E2AD5327C00BC2F52 /* Switch.swift */; };
 		D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0902AD538B000BC2F52 /* Nil.swift */; };
+		D8F2B0942AD55D4900BC2F52 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0932AD55D4900BC2F52 /* Exception.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 		D8F2B08E2AD5327C00BC2F52 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		D8F2B0902AD538B000BC2F52 /* Nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nil.swift; sourceTree = "<group>"; };
+		D8F2B0932AD55D4900BC2F52 /* Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D8F2B0682AD4FF7100BC2F52 /* SwiftBasicApp.swift */,
 				D8F2B0772AD504B400BC2F52 /* Ch2.문법의첫걸음 */,
 				D8F2B0892AD5209500BC2F52 /* Ch3.코드로구조잡기 */,
+				D8F2B0922AD55CF100BC2F52 /* Ch4.문법활용해서코딩하기 */,
 				D8F2B06C2AD4FF7200BC2F52 /* Assets.xcassets */,
 				D8F2B06E2AD4FF7200BC2F52 /* SwiftBasic.entitlements */,
 				D8F2B06F2AD4FF7200BC2F52 /* Preview Content */,
@@ -115,6 +118,15 @@
 			);
 			name = "Ch3.코드로구조잡기";
 			path = "Ch3.코드로구조잡기";
+			sourceTree = "<group>";
+		};
+		D8F2B0922AD55CF100BC2F52 /* Ch4.문법활용해서코딩하기 */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2B0932AD55D4900BC2F52 /* Exception.swift */,
+			);
+			name = "Ch4.문법활용해서코딩하기";
+			path = "Ch4.문법활용해서코딩하기";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +207,7 @@
 				D8F2B0882AD5208E00BC2F52 /* Elevator.swift in Sources */,
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
 				D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */,
+				D8F2B0942AD55D4900BC2F52 /* Exception.swift in Sources */,
 				D8F2B08B2AD5250300BC2F52 /* DiffBtwStructAndClass.swift in Sources */,
 				D8F2B07F2AD513D100BC2F52 /* Loop.swift in Sources */,
 				D8F2B07B2AD50A2500BC2F52 /* Collections.swift in Sources */,
