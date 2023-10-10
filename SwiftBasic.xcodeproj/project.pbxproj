@@ -18,6 +18,7 @@
 		D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0822AD5181E00BC2F52 /* Function.swift */; };
 		D8F2B0882AD5208E00BC2F52 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0872AD5208E00BC2F52 /* Elevator.swift */; };
 		D8F2B08B2AD5250300BC2F52 /* DiffBtwStructAndClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08A2AD5250300BC2F52 /* DiffBtwStructAndClass.swift */; };
+		D8F2B08D2AD52D9300BC2F52 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D8F2B0822AD5181E00BC2F52 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		D8F2B0872AD5208E00BC2F52 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 		D8F2B08A2AD5250300BC2F52 /* DiffBtwStructAndClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffBtwStructAndClass.swift; sourceTree = "<group>"; };
+		D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				D8F2B0872AD5208E00BC2F52 /* Elevator.swift */,
 				D8F2B08A2AD5250300BC2F52 /* DiffBtwStructAndClass.swift */,
+				D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */,
 			);
 			name = "Ch3.코드로구조잡기";
 			path = "Ch3.코드로구조잡기";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F2B0792AD504D500BC2F52 /* VariableType.swift in Sources */,
+				D8F2B08D2AD52D9300BC2F52 /* Enumeration.swift in Sources */,
 				D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */,
 				D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */,
 				D8F2B0882AD5208E00BC2F52 /* Elevator.swift in Sources */,
