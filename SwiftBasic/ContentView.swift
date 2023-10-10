@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var name: String = "라떼"
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("\(name)님 안녕하세요.")
+            Text("\(name)님의 잔여 포인트는 202점 입니다.")
+            Text("\(name)님 안녕히가세요.")
+            Text(name)
         }
         .padding()
     }
