@@ -27,6 +27,7 @@
 		D8F2B09E2AD5701400BC2F52 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B09D2AD5701400BC2F52 /* SimpleView.swift */; };
 		D8F2B0A02AD576F600BC2F52 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B09F2AD576F600BC2F52 /* Layout.swift */; };
 		D8F2B0A22AD57BBC00BC2F52 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0A12AD57BBC00BC2F52 /* Onboarding.swift */; };
+		D8F2B0A52AD5824D00BC2F52 /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0A42AD5824D00BC2F52 /* ListLoop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		D8F2B09D2AD5701400BC2F52 /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		D8F2B09F2AD576F600BC2F52 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		D8F2B0A12AD57BBC00BC2F52 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		D8F2B0A42AD5824D00BC2F52 /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D8F2B09C2AD5700200BC2F52 /* Ch1.한화면그리기 */,
+				D8F2B0A32AD581E100BC2F52 /* Ch2.리스트에추가하는화면그리기 */,
 			);
 			name = "Part2.몸풀기";
 			path = "Part2.몸풀기";
@@ -169,6 +172,15 @@
 			);
 			name = "Ch1.한화면그리기";
 			path = "Ch1.한화면그리기";
+			sourceTree = "<group>";
+		};
+		D8F2B0A32AD581E100BC2F52 /* Ch2.리스트에추가하는화면그리기 */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2B0A42AD5824D00BC2F52 /* ListLoop.swift */,
+			);
+			name = "Ch2.리스트에추가하는화면그리기";
+			path = "Ch2.리스트에추가하는화면그리기";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +263,7 @@
 				D8F2B08F2AD5327C00BC2F52 /* Switch.swift in Sources */,
 				D8F2B0982AD5670100BC2F52 /* MyGeneric.swift in Sources */,
 				D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */,
+				D8F2B0A52AD5824D00BC2F52 /* ListLoop.swift in Sources */,
 				D8F2B0882AD5208E00BC2F52 /* Elevator.swift in Sources */,
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
 				D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */,
