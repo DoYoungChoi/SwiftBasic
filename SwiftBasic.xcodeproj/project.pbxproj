@@ -20,6 +20,7 @@
 		D8F2B08B2AD5250300BC2F52 /* DiffBtwStructAndClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08A2AD5250300BC2F52 /* DiffBtwStructAndClass.swift */; };
 		D8F2B08D2AD52D9300BC2F52 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */; };
 		D8F2B08F2AD5327C00BC2F52 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B08E2AD5327C00BC2F52 /* Switch.swift */; };
+		D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0902AD538B000BC2F52 /* Nil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D8F2B08A2AD5250300BC2F52 /* DiffBtwStructAndClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffBtwStructAndClass.swift; sourceTree = "<group>"; };
 		D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 		D8F2B08E2AD5327C00BC2F52 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		D8F2B0902AD538B000BC2F52 /* Nil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				D8F2B08A2AD5250300BC2F52 /* DiffBtwStructAndClass.swift */,
 				D8F2B08C2AD52D9300BC2F52 /* Enumeration.swift */,
 				D8F2B08E2AD5327C00BC2F52 /* Switch.swift */,
+				D8F2B0902AD538B000BC2F52 /* Nil.swift */,
 			);
 			name = "Ch3.코드로구조잡기";
 			path = "Ch3.코드로구조잡기";
@@ -191,6 +194,7 @@
 				D8F2B0832AD5181E00BC2F52 /* Function.swift in Sources */,
 				D8F2B0882AD5208E00BC2F52 /* Elevator.swift in Sources */,
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
+				D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */,
 				D8F2B08B2AD5250300BC2F52 /* DiffBtwStructAndClass.swift in Sources */,
 				D8F2B07F2AD513D100BC2F52 /* Loop.swift in Sources */,
 				D8F2B07B2AD50A2500BC2F52 /* Collections.swift in Sources */,
