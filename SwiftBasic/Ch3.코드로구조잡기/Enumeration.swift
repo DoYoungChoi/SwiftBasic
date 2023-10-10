@@ -19,7 +19,7 @@ struct Enumeration: View {
 
 enum Direction: String {
     case north = "북"
-    case sorth = "남"
+    case south = "남"
     case east = "동"
     case west = "서"
 }
