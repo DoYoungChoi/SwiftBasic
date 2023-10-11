@@ -16,7 +16,7 @@ struct Fruit: Identifiable {
 
 struct ListLoop: View {
     
-    var fruits = [
+    @State private var fruits = [
         Fruit(name: "Apple",
               matchFruitName: "Banana",
               price: 1000),
@@ -34,14 +34,38 @@ struct ListLoop: View {
               price: 8000)
     ]
     
+    @State private var fruitName: String = ""
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(fruits) { fruit in
-                    HStack {
-                        Text(fruit.name)
-                        Spacer()
-                        Text("\(fruit.price)")
+            VStack {
+                
+                HStack {
+                    TextField("Insert fruit name", text: $fruitName)
+                    Button {
+                        fruits.append(Fruit(name: fruitName,
+                                            matchFruitName: fruitName,
+                                            price: 1000))
+                        fruitName = ""
+                    } label: {
+                        Text("Insert")
+                            .padding()
+                            .background(Color.accentColor)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                }
+                .padding(.horizontal)
+                
+                List {
+                    ForEach(fruits) { fruit in
+                        HStack {
+                            Text(fruit.name)
+                            Spacer()
+                            Text("\(fruit.price)")
+                        }
+                    }
+                    .onDelete { indexSet in
+                        fruits.remove(atOffsets: indexSet)
                     }
                 }
             }
