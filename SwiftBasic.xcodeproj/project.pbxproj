@@ -10,6 +10,7 @@
 		D82229682AD666E900C9EDF7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82229672AD666E900C9EDF7 /* Settings.swift */; };
 		D822296B2AD67D5D00C9EDF7 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822296A2AD67D5D00C9EDF7 /* Modal.swift */; };
 		D822296D2AD67E5700C9EDF7 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822296C2AD67E5700C9EDF7 /* Detail.swift */; };
+		D822296F2AD682E900C9EDF7 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822296E2AD682E900C9EDF7 /* Navigation.swift */; };
 		D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B0682AD4FF7100BC2F52 /* SwiftBasicApp.swift */; };
 		D8F2B06B2AD4FF7100BC2F52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2B06A2AD4FF7100BC2F52 /* ContentView.swift */; };
 		D8F2B06D2AD4FF7200BC2F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F2B06C2AD4FF7200BC2F52 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		D82229672AD666E900C9EDF7 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D822296A2AD67D5D00C9EDF7 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		D822296C2AD67E5700C9EDF7 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		D822296E2AD682E900C9EDF7 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		D8F2B0652AD4FF7100BC2F52 /* SwiftBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F2B0682AD4FF7100BC2F52 /* SwiftBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicApp.swift; sourceTree = "<group>"; };
 		D8F2B06A2AD4FF7100BC2F52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				D822296A2AD67D5D00C9EDF7 /* Modal.swift */,
 				D822296C2AD67E5700C9EDF7 /* Detail.swift */,
+				D822296E2AD682E900C9EDF7 /* Navigation.swift */,
 			);
 			name = "Ch3.여러개화면이어붙이기";
 			path = "Ch3.여러개화면이어붙이기";
@@ -288,6 +291,7 @@
 				D8F2B0692AD4FF7100BC2F52 /* SwiftBasicApp.swift in Sources */,
 				D8F2B0912AD538B000BC2F52 /* Nil.swift in Sources */,
 				D8F2B0942AD55D4900BC2F52 /* Exception.swift in Sources */,
+				D822296F2AD682E900C9EDF7 /* Navigation.swift in Sources */,
 				D8F2B08B2AD5250300BC2F52 /* DiffBtwStructAndClass.swift in Sources */,
 				D8F2B07F2AD513D100BC2F52 /* Loop.swift in Sources */,
 				D8F2B07B2AD50A2500BC2F52 /* Collections.swift in Sources */,
